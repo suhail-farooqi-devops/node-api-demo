@@ -18,5 +18,6 @@ app.get("/api/health", (_req, res) => {
 });
 
 app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
     console.log(`API running at http://localhost:${PORT}`);
 });
